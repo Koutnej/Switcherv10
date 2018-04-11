@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.petrkoutny.switcherv10.MainActivity">
+    tools:context="com.example.petrkoutny.switcherv10.MainActivity"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_EL2904"
-        android:layout_width="230dp"
+        android:layout_width="match_parent"
         android:layout_height="92dp"
         android:text="EL2904"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="241dp"
+        android:layout_margin="8dp"
         android:background="#ff0" />
 
     <Button
         android:id="@+id/btn_EL1904"
-        android:layout_width="230dp"
+        android:layout_width="match_parent"
         android:layout_height="92dp"
         android:background="#ff0"
         android:text="EL1904"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="128dp" />
+        android:layout_margin="8dp" />
 
     <Button
         android:id="@+id/btn_EL6900"
-        android:layout_width="230dp"
+        android:layout_width="match_parent"
         android:layout_height="92dp"
         android:background="#ff0"
         android:text="EL6900"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_margin="8dp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
