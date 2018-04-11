@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.petrkoutny.switcherv10.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_margin="8dp"
+        android:background="#ff0"
+        android:hint="Zadej adresu"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:onClick="btn1_OnClick"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"/>
+
+
+</LinearLayout>

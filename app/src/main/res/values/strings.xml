@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Switcher v1.0</string>
+
+    <string name="card_EL1904" translatable="false">EL1904</string>
+    <string name="card_EL2904" translatable="false">EL2904</string>
+    <string name="card_EL6900" translatable="false">EL6900</string>
+
+
 </resources>
